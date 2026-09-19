@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input section */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  width: 310px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 0 15px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.input-container button {
+  padding: 0;
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(206, 188, 181);
+
+  padding: 15px;
+  margin-top: 10px;
+
+  width: 350px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:15px;
+  border-radius: 5px;
+background-color: rgb(255, 255, 255);
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.actions > button {
+  border: none;
+  background-color: red;
+  height: 30px;
+  padding: 0 10px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
